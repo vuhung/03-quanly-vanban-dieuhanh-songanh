@@ -1,0 +1,30 @@
+$Id: TODO.txt,v 1.2 2010/08/29 04:38:16 oadaeh Exp $
+
+  * Create admin options for specifying the width of the subject and from
+    fields.
+  * Have attachment code check to see if the attachment has already been
+    downloaded before downloading again.
+  * Come up with a way of deleting/marking multiple messages w/o the problem
+    of new messages interferring.
+
+  * Change all arg() function calls to variables.
+
+  * Add different icons for read, unread and attachment: Lullacons!
+    (Need to come up with appropriate icons for attachment and answered.)
+
+  * Make the date settings more flexible?
+
+  * Check to see if an attachment has already been downloaded before
+    downloading it again.
+
+  * Profile the code.
+  * Make it faster.
+
+  * Add the ability to manage additional folders.
+
+  * Improve display of HTML messages?
+  * Have an option to show messages in a threaded list?
+  * Add sent receipt functionality?
+
+  * Create an address book like thingy.
+  * Client request: create an AJAXy, Thunderbird-like UI. (Oye!)

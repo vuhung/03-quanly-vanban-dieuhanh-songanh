@@ -1,0 +1,355 @@
+[20-Dec-2011 14:33:25] PHP Parse error:  syntax error, unexpected '<' in /home/bgovn/public_html/tttt_vb2012/themes/pixture/node.tpl.php on line 28
+[20-Dec-2011 15:08:26] PHP Fatal error:  Call to a member function options_validate() on a non-object in /home/bgovn/public_html/tttt_vb2012/sites/all/modules/views/includes/admin.inc on line 2501
+[20-Dec-2011 15:09:01] PHP Fatal error:  Call to a member function options_validate() on a non-object in /home/bgovn/public_html/tttt_vb2012/sites/all/modules/views/includes/admin.inc on line 2501
+[20-Dec-2011 15:09:06] PHP Fatal error:  Call to a member function options_validate() on a non-object in /home/bgovn/public_html/tttt_vb2012/sites/all/modules/views/includes/admin.inc on line 2501
+[28-Feb-2012 11:48:43] PHP Parse error:  syntax error, unexpected '<' in /home/bgovn/public_html/tttt_vb2012/sites/all/modules/views_customfield/includes/views_customfield_handler_field_phpcode.inc(118) : eval()'d code on line 5
+[28-Feb-2012 11:48:43] PHP Parse error:  syntax error, unexpected '<' in /home/bgovn/public_html/tttt_vb2012/sites/all/modules/views_customfield/includes/views_customfield_handler_field_phpcode.inc(118) : eval()'d code on line 5
+[28-Feb-2012 11:48:43] PHP Parse error:  syntax error, unexpected '<' in /home/bgovn/public_html/tttt_vb2012/sites/all/modules/views_customfield/includes/views_customfield_handler_field_phpcode.inc(118) : eval()'d code on line 5
+[28-Feb-2012 11:48:43] PHP Parse error:  syntax error, unexpected '<' in /home/bgovn/public_html/tttt_vb2012/sites/all/modules/views_customfield/includes/views_customfield_handler_field_phpcode.inc(118) : eval()'d code on line 5
+[28-Feb-2012 11:48:43] PHP Parse error:  syntax error, unexpected '<' in /home/bgovn/public_html/tttt_vb2012/sites/all/modules/views_customfield/includes/views_customfield_handler_field_phpcode.inc(118) : eval()'d code on line 5
+[28-Feb-2012 11:48:43] PHP Parse error:  syntax error, unexpected '<' in /home/bgovn/public_html/tttt_vb2012/sites/all/modules/views_customfield/includes/views_customfield_handler_field_phpcode.inc(118) : eval()'d code on line 5
+[28-Feb-2012 11:48:43] PHP Parse error:  syntax error, unexpected '<' in /home/bgovn/public_html/tttt_vb2012/sites/all/modules/views_customfield/includes/views_customfield_handler_field_phpcode.inc(118) : eval()'d code on line 5
+[28-Feb-2012 11:48:43] PHP Parse error:  syntax error, unexpected '<' in /home/bgovn/public_html/tttt_vb2012/sites/all/modules/views_customfield/includes/views_customfield_handler_field_phpcode.inc(118) : eval()'d code on line 5
+[28-Feb-2012 11:48:43] PHP Parse error:  syntax error, unexpected '<' in /home/bgovn/public_html/tttt_vb2012/sites/all/modules/views_customfield/includes/views_customfield_handler_field_phpcode.inc(118) : eval()'d code on line 5
+[28-Feb-2012 11:48:43] PHP Parse error:  syntax error, unexpected '<' in /home/bgovn/public_html/tttt_vb2012/sites/all/modules/views_customfield/includes/views_customfield_handler_field_phpcode.inc(118) : eval()'d code on line 5
+[28-Feb-2012 11:54:25] PHP Fatal error:  Call to undefined function now() in /home/bgovn/public_html/tttt_vb2012/sites/all/modules/views_customfield/includes/views_customfield_handler_field_phpcode.inc(118) : eval()'d code on line 2
+[28-Feb-2012 11:54:45] PHP Fatal error:  Call to undefined function today() in /home/bgovn/public_html/tttt_vb2012/sites/all/modules/views_customfield/includes/views_customfield_handler_field_phpcode.inc(118) : eval()'d code on line 2
+[29-Feb-2012 10:20:27] PHP Fatal error:  Call to undefined method stdClass::execute() in /home/bgovn/public_html/tttt_vb2012/sites/all/modules/views_customfield/includes/views_customfield_handler_field_phpcode.inc(118) : eval()'d code on line 4
+[29-Feb-2012 10:21:04] PHP Fatal error:  Call to undefined method stdClass::execute() in /home/bgovn/public_html/tttt_vb2012/sites/all/modules/views_customfield/includes/views_customfield_handler_field_phpcode.inc(118) : eval()'d code on line 4
+[02-Mar-2012 11:06:55] PHP Parse error:  syntax error, unexpected ';' in /home/bgovn/public_html/tttt_vb2012/sites/all/modules/computed_field/computed_field.module(161) : eval()'d code on line 2
+[02-Mar-2012 14:24:58] PHP Fatal error:  Call to undefined method stdClass::execute() in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 5
+[02-Mar-2012 14:25:26] PHP Fatal error:  Call to undefined method stdClass::execute() in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 4
+[02-Mar-2012 14:28:21] PHP Fatal error:  Call to undefined method stdClass::execute() in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 4
+[02-Mar-2012 14:39:53] PHP Fatal error:  Call to undefined method stdClass::execute() in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 4
+[02-Mar-2012 14:43:36] PHP Fatal error:  Call to undefined method stdClass::execute() in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 4
+[02-Mar-2012 14:52:17] PHP Fatal error:  Call to undefined method stdClass::execute() in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 11
+[02-Mar-2012 14:52:47] PHP Fatal error:  Call to undefined method stdClass::execute() in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 11
+[02-Mar-2012 14:55:17] PHP Fatal error:  Call to undefined method stdClass::execute() in /home/bgovn/public_html/tttt_vb2012/sites/all/modules/views_customfield/includes/views_customfield_handler_field_phpcode.inc(118) : eval()'d code on line 4
+[02-Mar-2012 14:55:49] PHP Fatal error:  Call to undefined method stdClass::execute() in /home/bgovn/public_html/tttt_vb2012/sites/all/modules/views_customfield/includes/views_customfield_handler_field_phpcode.inc(118) : eval()'d code on line 4
+[02-Mar-2012 14:56:40] PHP Fatal error:  Call to undefined method stdClass::execute() in /home/bgovn/public_html/tttt_vb2012/sites/all/modules/views_customfield/includes/views_customfield_handler_field_phpcode.inc(118) : eval()'d code on line 4
+[19-Mar-2012 14:11:04] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:04] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:04] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:04] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:04] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:04] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:04] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:04] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:04] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:04] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:04] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:04] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:04] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:04] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:04] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:14] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:14] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:14] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:14] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:14] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:14] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:14] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:14] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:14] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:14] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:14] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:14] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:14] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:14] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:14] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:21] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:21] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:21] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:21] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:21] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:21] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:21] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:21] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:21] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:21] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:21] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:21] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:21] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:21] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:21] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:55] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:55] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:55] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:55] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:55] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:55] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:55] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:55] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:55] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:55] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:55] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:55] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:55] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:55] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:55] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:57] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:57] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:57] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:57] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:57] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:57] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:57] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:57] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:57] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:57] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:57] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:57] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:57] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:57] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:11:57] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:12:00] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:12:00] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:12:00] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:12:00] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:12:00] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:12:00] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:12:00] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:12:00] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:12:00] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:12:00] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:12:00] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:12:00] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:12:00] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:12:00] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[19-Mar-2012 14:12:00] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 2
+[04-Apr-2012 18:03:42] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:03:42] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:03:42] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:03:42] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:03:42] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:03:42] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:03:42] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:03:42] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:03:42] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:03:42] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:03:42] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:03:42] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:03:42] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:03:42] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:03:42] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:04:41] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:04:41] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:04:41] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:04:41] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:04:41] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:04:41] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:04:41] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:04:41] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:04:41] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:04:41] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:04:41] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:04:41] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:04:41] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:04:41] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:04:41] PHP Parse error:  syntax error, unexpected T_ELSEIF in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:08] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:08] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:08] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:08] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:08] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:08] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:08] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:08] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:08] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:08] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:08] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:08] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:08] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:08] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:08] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:12] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:12] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:12] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:12] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:12] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:12] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:12] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:12] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:12] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:12] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:12] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:12] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:12] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:12] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:12] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:39] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:39] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:39] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:39] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:39] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:39] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:39] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:39] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:39] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:39] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:39] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:39] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:39] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:39] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:39] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:46] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:46] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:46] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:46] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:46] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:46] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:46] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:46] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:46] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:46] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:46] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:46] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:46] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:46] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:07:46] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:00] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:00] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:00] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:00] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:00] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:00] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:00] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:00] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:00] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:00] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:00] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:00] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:00] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:00] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:00] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:18] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:18] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:18] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:18] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:18] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:18] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:18] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:18] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:18] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:18] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:18] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:18] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:18] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:18] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:18] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:21] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:21] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:21] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:21] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:21] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:21] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:21] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:21] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:21] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:21] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:21] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:21] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:21] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:21] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:21] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:29] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:29] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:29] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:29] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:29] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:29] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:29] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:29] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:29] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:29] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:29] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:29] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:29] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:29] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:29] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:34] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:34] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:34] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:34] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:34] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:34] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:34] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:34] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:34] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:34] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:34] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:34] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:34] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:34] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:34] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:36] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:36] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:36] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:36] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:36] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:36] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:36] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:36] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:36] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:36] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:36] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:36] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:36] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:36] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[04-Apr-2012 18:09:36] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting '(' in /home/bgovn/public_html/tttt_vb2012/includes/common.inc(1728) : eval()'d code on line 1
+[31-Jul-2012 17:10:04] PHP Fatal error:  Call to undefined function  dpr() in /home/bgovn/public_html/snn_vb/sites/all/modules/basic_webmail/basic_webmail_mail_list.inc on line 79
+[31-Jul-2012 17:10:17] PHP Fatal error:  Call to undefined function  dpr() in /home/bgovn/public_html/snn_vb/sites/all/modules/basic_webmail/basic_webmail_mail_list.inc on line 79
+[07-Aug-2012 08:29:13] PHP Warning:  Table &#039;bgovn_lucngan_vb.access&#039; doesn&#039;t exist
+query: SELECT 1 FROM access WHERE type = &#039;host&#039; AND LOWER(&#039;123.18.207.78&#039;) LIKE LOWER(mask) AND status = 0 LIMIT 0, 1 in /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc on line 134
+[07-Aug-2012 08:29:13] PHP Warning:  Table &#039;bgovn_lucngan_vb.users&#039; doesn&#039;t exist
+query: SELECT u.*, s.* FROM users u INNER JOIN sessions s ON u.uid = s.uid WHERE s.sid = &#039;191af0899ca19e444538d015bf8185cd&#039; in /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc on line 134
+[07-Aug-2012 08:29:13] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc:134) in /home/bgovn/public_html/lucngan_vb/includes/bootstrap.inc on line 1165
+[07-Aug-2012 08:29:13] PHP Warning:  Table &#039;bgovn_lucngan_vb.cache&#039; doesn&#039;t exist
+query: SELECT data, created, headers, expire, serialized FROM cache WHERE cid = &#039;variables&#039; in /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc on line 134
+[07-Aug-2012 08:29:13] PHP Warning:  Table &#039;bgovn_lucngan_vb.variable&#039; doesn&#039;t exist
+query: SELECT * FROM variable in /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc on line 134
+[07-Aug-2012 08:29:13] PHP Warning:  Table &#039;bgovn_lucngan_vb.cache&#039; doesn&#039;t exist
+query: UPDATE cache SET data = &#039;&#039;, created = 1344313753, expire = 0, headers = &#039;&#039;, serialized = 0 WHERE cid = &#039;variables&#039; in /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc on line 134
+[07-Aug-2012 08:29:13] PHP Warning:  Table &#039;bgovn_lucngan_vb.system&#039; doesn&#039;t exist
+query: SELECT name, filename, throttle FROM system WHERE type = &#039;module&#039; AND status = 1 AND bootstrap = 1 ORDER BY weight ASC, filename ASC in /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc on line 134
+[07-Aug-2012 08:29:13] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc:134) in /home/bgovn/public_html/lucngan_vb/includes/bootstrap.inc on line 729
+[07-Aug-2012 08:29:13] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc:134) in /home/bgovn/public_html/lucngan_vb/includes/bootstrap.inc on line 730
+[07-Aug-2012 08:29:13] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc:134) in /home/bgovn/public_html/lucngan_vb/includes/bootstrap.inc on line 731
+[07-Aug-2012 08:29:13] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc:134) in /home/bgovn/public_html/lucngan_vb/includes/bootstrap.inc on line 732
+[07-Aug-2012 08:29:13] PHP Warning:  Table &#039;bgovn_lucngan_vb.access&#039; doesn&#039;t exist
+query: SELECT 1 FROM access WHERE type = &#039;host&#039; AND LOWER(&#039;123.18.207.78&#039;) LIKE LOWER(mask) AND status = 0 LIMIT 0, 1 in /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc on line 134
+[07-Aug-2012 08:29:13] PHP Warning:  Table &#039;bgovn_lucngan_vb.url_alias&#039; doesn&#039;t exist
+query: SELECT COUNT(pid) FROM url_alias in /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc on line 134
+[07-Aug-2012 08:29:13] PHP Warning:  Table &#039;bgovn_lucngan_vb.users&#039; doesn&#039;t exist
+query: SELECT u.*, s.* FROM users u INNER JOIN sessions s ON u.uid = s.uid WHERE s.sid = &#039;191af0899ca19e444538d015bf8185cd&#039; in /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc on line 134
+[07-Aug-2012 08:29:13] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc:134) in /home/bgovn/public_html/lucngan_vb/includes/bootstrap.inc on line 1165
+[07-Aug-2012 08:29:13] PHP Warning:  Table &#039;bgovn_lucngan_vb.cache&#039; doesn&#039;t exist
+query: SELECT data, created, headers, expire, serialized FROM cache WHERE cid = &#039;variables&#039; in /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc on line 134
+[07-Aug-2012 08:29:13] PHP Warning:  Table &#039;bgovn_lucngan_vb.variable&#039; doesn&#039;t exist
+query: SELECT * FROM variable in /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc on line 134
+[07-Aug-2012 08:29:13] PHP Warning:  Table &#039;bgovn_lucngan_vb.cache&#039; doesn&#039;t exist
+query: UPDATE cache SET data = &#039;&#039;, created = 1344313753, expire = 0, headers = &#039;&#039;, serialized = 0 WHERE cid = &#039;variables&#039; in /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc on line 134
+[07-Aug-2012 08:29:13] PHP Warning:  Table &#039;bgovn_lucngan_vb.system&#039; doesn&#039;t exist
+query: SELECT name, filename, throttle FROM system WHERE type = &#039;module&#039; AND status = 1 AND bootstrap = 1 ORDER BY weight ASC, filename ASC in /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc on line 134
+[07-Aug-2012 08:29:13] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc:134) in /home/bgovn/public_html/lucngan_vb/includes/bootstrap.inc on line 729
+[07-Aug-2012 08:29:13] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc:134) in /home/bgovn/public_html/lucngan_vb/includes/bootstrap.inc on line 730
+[07-Aug-2012 08:29:13] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc:134) in /home/bgovn/public_html/lucngan_vb/includes/bootstrap.inc on line 731
+[07-Aug-2012 08:29:13] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc:134) in /home/bgovn/public_html/lucngan_vb/includes/bootstrap.inc on line 732
+[07-Aug-2012 08:29:13] PHP Warning:  Table &#039;bgovn_lucngan_vb.url_alias&#039; doesn&#039;t exist
+query: SELECT COUNT(pid) FROM url_alias in /home/bgovn/public_html/lucngan_vb/includes/database.mysqli.inc on line 134
+[23-Oct-2012 10:02:21] PHP Fatal error:  Call to undefined function  node_object_prepare() in /home/bgovn/public_html/lucngan_vb/sites/all/modules/basic_webmail/basic_webmail.module on line 455
+[23-Oct-2012 10:07:12] PHP Fatal error:  Call to undefined function  node_object_prepare() in /home/bgovn/public_html/lucngan_vb/sites/all/modules/basic_webmail/basic_webmail.module on line 455
+[23-Oct-2012 10:27:40] PHP Fatal error:  Call to undefined function  node_object_prepare() in /home/bgovn/public_html/lucngan_vb/sites/all/modules/basic_webmail/basic_webmail.module on line 455
+[23-Oct-2012 10:43:10] PHP Fatal error:  Call to undefined function  node_object_prepare() in /home/bgovn/public_html/lucngan_vb/sites/all/modules/basic_webmail/basic_webmail.module on line 455
+[23-Oct-2012 10:47:05] PHP Fatal error:  Call to undefined function  node_object_prepare() in /home/bgovn/public_html/lucngan_vb/sites/all/modules/basic_webmail/basic_webmail.module on line 455
+[23-Oct-2012 10:47:36] PHP Fatal error:  Call to undefined function  node_object_prepare() in /home/bgovn/public_html/lucngan_vb/sites/all/modules/basic_webmail/basic_webmail.module on line 455
+[23-Oct-2012 10:47:50] PHP Fatal error:  Call to undefined function  node_object_prepare() in /home/bgovn/public_html/lucngan_vb/sites/all/modules/basic_webmail/basic_webmail.module on line 455
+[23-Oct-2012 10:54:22] PHP Fatal error:  Call to undefined function  node_object_prepare() in /home/bgovn/public_html/lucngan_vb/sites/all/modules/basic_webmail/basic_webmail.module on line 455
+[23-Oct-2012 10:55:49] PHP Fatal error:  Call to undefined function  node_object_prepare() in /home/bgovn/public_html/lucngan_vb/sites/all/modules/basic_webmail/basic_webmail.module on line 455
+[23-Oct-2012 10:56:22] PHP Fatal error:  Call to undefined function  node_object_prepare() in /home/bgovn/public_html/lucngan_vb/sites/all/modules/basic_webmail/basic_webmail.module on line 455
+[23-Oct-2012 11:23:48] PHP Fatal error:  Call to undefined function  node_object_prepare() in /home/bgovn/public_html/lucngan_vb/sites/all/modules/basic_webmail/basic_webmail.module on line 455
+[23-Oct-2012 11:25:17] PHP Fatal error:  Call to undefined function  node_object_prepare() in /home/bgovn/public_html/lucngan_vb/sites/all/modules/basic_webmail/basic_webmail.module on line 455
+[23-Oct-2012 11:29:51] PHP Fatal error:  Call to undefined function  node_object_prepare() in /home/bgovn/public_html/lucngan_vb/sites/all/modules/basic_webmail/basic_webmail.module on line 455
+[23-Oct-2012 11:30:02] PHP Fatal error:  Call to undefined function  node_object_prepare() in /home/bgovn/public_html/lucngan_vb/sites/all/modules/basic_webmail/basic_webmail.module on line 455
+[23-Oct-2012 11:34:07] PHP Fatal error:  Call to undefined function  node_object_prepare() in /home/bgovn/public_html/lucngan_vb/sites/all/modules/basic_webmail/basic_webmail.module on line 455
+[23-Oct-2012 11:34:31] PHP Fatal error:  Call to undefined function  node_object_prepare() in /home/bgovn/public_html/lucngan_vb/sites/all/modules/basic_webmail/basic_webmail.module on line 455

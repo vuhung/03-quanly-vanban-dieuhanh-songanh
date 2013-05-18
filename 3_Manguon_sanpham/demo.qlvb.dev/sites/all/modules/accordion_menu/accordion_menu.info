@@ -1,0 +1,13 @@
+name = Accordion menu
+description = Provide Drupal integration with jQuery UI accordion menu.
+package = User interface
+core = 6.x
+
+dependencies[] = jquery_ui
+
+; Information added by drupal.org packaging script on 2012-03-03
+version = "6.x-1.2"
+core = "6.x"
+project = "accordion_menu"
+datestamp = "1330788040"
+

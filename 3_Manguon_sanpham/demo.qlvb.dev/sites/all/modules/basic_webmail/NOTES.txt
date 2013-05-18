@@ -1,0 +1,17 @@
+What is needed:
+x  administration configuration
+?  user configuration
+x  a single menu item: e-mail (#n/#t)
+x    list of e-mail
+x      view individual messages
+x        reply
+x        reply to all
+?        reply to mail list
+x        forward
+         save
+?        move
+x        mark
+?        flag
+x        delete
+x      send new e-mail to author
+x      send new e-mail to another receiver

@@ -1,0 +1,19 @@
+
+Block Refresh 6.x-1.x-ALPHA2, 2010-08-27
+----------------------------------------
+- #895184 - Block Refresh now works with sites not using clean URLs. Thanks tonige!
+- Changed hook_uninstall to remove ALL variables set by Block Refresh
+- #891262-2 - Added message when Block Refresh is enabled, reminding admin to set proper permissions. Thanks MartijnR!
+
+Block Refresh 6.x-1.x-ALPHA1, 2010-07-31
+----------------------------------------
+- Added README.txt
+- Made help text only show link on admin/help so that it didn't show everywhere
+    (thanks to neighborhoodsix for notification of this bug)
+
+Block Refresh 6.x-1.x-dev, 2010-07-29
+-------------------------------------
+** Initial Release by bocaj **
+- Automatic refresh determined by seconds (configureable by block)
+- Manual, user-initiated refresh (configureable by block)
+- Administrator can choose one or both options above per block

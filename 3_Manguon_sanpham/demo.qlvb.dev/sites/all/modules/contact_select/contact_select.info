@@ -1,0 +1,5 @@
+name = Contact popup select
+description = Chọn danh sách đơn vị từ popup
+core = 6.x
+package = "E-GOV QLVB 2012"
+dependencies[] = ctools

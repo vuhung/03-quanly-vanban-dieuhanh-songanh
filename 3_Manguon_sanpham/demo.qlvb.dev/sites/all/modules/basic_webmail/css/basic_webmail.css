@@ -1,0 +1,107 @@
+.basic_mail_compose_mail {
+	min-width: 97px;background-color: #D14836;border: 1px solid transparent;display: inline-block;
+	position: relative;text-shadow: 0 1px rgba(0, 0, 0, 0.1);text-transform: uppercase;border-radius: 2px;font-weight: bold;
+	height: 27px;line-height: 27px;margin-right: 16px;min-width: 54px;outline: 0 none;padding: 0 8px;text-align: center;
+	font-family: arial, sans-serif;margin-left: 9px;color: #FFFFFF;
+    margin-left: 16px; height: 28px; width: 90px;
+    margin-top: 5px;
+}
+.basic_mail_compose_mail a,.basic_mail_compose_mail a:link,.basic_mail_compose_mail a.active:link,.basic_mail_compose_mail  a:visited,.basic_mail_compose_mail a.active:visited
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.basic_webmail_main {
+  position: relative;
+}
+.basic_webmail_navigate {
+	float: left;
+	width: 17%;
+	
+}
+
+.basic_webmail_mail_list {
+	float: right;
+	width: 80%;
+	padding-left: 5px;
+}
+.basic_webmail_mail_list a {
+    font-weight: normal;   
+}
+.basic_mail_folder_list {
+	margin-top:8px;
+}
+
+.bwm_detail_header {
+	padding: 5px;
+	font-style: italic;
+	width: 90%;
+	border-bottom: 1px solid #E5E5E5;
+	font-size: 11px;
+}
+
+.bwm_detail_content .bwm_detail_html,.bwm_detail_text,.bwm_detail_attach
+{
+	padding: 5px;
+	font-size: 12px;
+}
+.bwm_detail_text{
+	white-space:pre;
+}
+.bwm_detail_attach {
+	width: 90%;
+	border-top: 1px solid #E5E5E5;
+}
+
+.bwm_seperator {
+	width: 100%;
+	border-top: 1px solid #E5E5E5;
+	margin: 5px;
+}
+
+.el {
+	color: #1155CC;
+	text-decoration: none;
+	margin-right: 6px;
+	cursor: pointer;
+}
+
+.el:hover {
+	color: #1155CC;
+	text-decoration: underline;
+}
+.dK input {
+	width:95%;
+}
+/* cuhv style for email */
+.basic_webmail_main  .container-inline {	
+  margin-bottom: 10px;
+}
+.basic_webmail_main tr.odd {   
+  background: none repeat scroll 0 0 #F5F5F5;
+}
+.basic_webmail_main  tr.even {
+   
+  background: none repeat scroll 0 0 #F5F5F5;
+}
+.basic_webmail_main  tr.even, .basic_webmail_main  tr.odd {   
+  border-bottom: 1px solid #E5E5E5;
+}
+.basic_webmail_main  td.active { 
+  background-color: #F5F5F5;
+}
+#edit-refresh {
+	margin-left: 0;
+}
+.bwm_detail_header {	
+  display: block;
+  max-width: 750px; 
+  white-space: pre-wrap;
+  word-wrap: break-word; 
+}
+.bwm_detail_text { 
+  max-width: 750px; 
+  white-space: pre-wrap;
+  word-wrap: break-word; 
+} 

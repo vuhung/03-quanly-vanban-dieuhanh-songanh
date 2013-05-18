@@ -1,0 +1,21 @@
+<?php
+
+function attribute_install() {
+  drupal_load('module', 'content');
+  content_notify('install', 'attribute');
+}
+
+function attribute_uninstall() {
+  drupal_load('module', 'content');
+  content_notify('uninstall', 'attribute');
+}
+
+function attribute_enable() {
+  drupal_load('module', 'content');
+  content_notify('enable', 'attribute');
+}
+
+function attribute_disable() {
+  drupal_load('module', 'content');
+  content_notify('disable', 'attribute');
+}

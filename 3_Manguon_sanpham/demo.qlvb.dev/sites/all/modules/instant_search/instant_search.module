@@ -1,0 +1,60 @@
+<?php
+
+/**
+ * @file
+ * Make node content appear in search results directly after submitting.
+ */
+
+/**
+ * Implementation of hook_exit().
+ */
+function instant_search_exit() {
+    global $update_node_index;
+    // we only run the indexer if a node has been inserted or updated in the current request
+    if($update_node_index) {
+      // Store the maximum possible comments per thread (used for ranking by reply count)
+      variable_set('node_cron_comments_scale', 1.0 / max(1, db_result(db_query('SELECT MAX(comment_count) FROM {node_comment_statistics}'))));
+      variable_set('node_cron_views_scale', 1.0 / max(1, db_result(db_query('SELECT MAX(totalcount) FROM {node_counter}'))));
+
+      // Index node
+      _node_index_node($update_node_index);
+      
+      search_update_totals();
+    }
+}
+
+/**
+ * Implementation of hook_nodeapi().
+ */
+function instant_search_nodeapi(&$node, $op, $arg = 0) {
+  switch ($op) {
+    case 'insert':
+    case 'update':
+      // when inserting or updating a node, let's set a global variable to let hook_exit now it will have to run the indexer
+      global $update_node_index;
+      $update_node_index = $node;
+      break;
+  }
+}
+
+/**
+ * Implementation of hook_search().
+ */
+function instant_search_search($op = 'search', $keys = NULL) {
+  switch ($op) {
+    case 'admin':
+      // we add the possibility to disable instant search momentarily via the admin/settings/search screen
+      $form = array();
+      $form['instant_search'] = array(
+        '#type' => 'fieldset',
+        '#title' => t('Search results availability'),
+      );
+      $form['instant_search']['instant_search_enable'] = array(
+        '#type' => 'checkbox',
+        '#title' => t('Instantly index node content after inserting or updating nodes.'),
+        '#description' => t('Checking this will make your content appear instantly in your search results after inserting or updating. Default behaviour makes your content appear as soon as cron runs.'),
+        '#default_value' => variable_get('instant_search_enable', '1'),
+      );
+      return $form;
+  }
+}

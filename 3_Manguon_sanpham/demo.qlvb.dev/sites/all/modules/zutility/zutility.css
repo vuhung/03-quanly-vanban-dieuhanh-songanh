@@ -1,0 +1,5 @@
+#edit-field-004-loaivanbandi-value-wrapper .throbber, #edit-field-004-loaivanbandi-value-wrapper .ahah-progress{
+  display: inline;
+  float: none;
+  padding: 1px 13px 2px 3px; /* RTL */
+}

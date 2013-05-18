@@ -1,0 +1,13 @@
+; $Id: views_table_highlighter.info,v 1.1 2009/12/30 04:45:19 smokris Exp $
+name = Views Table Highlighter
+description = Highlights Views Table rows based on simple PHP code.
+dependencies[] = views
+package = Views
+core = 6.x
+
+; Information added by drupal.org packaging script on 2010-01-20
+version = "6.x-1.1"
+core = "6.x"
+project = "views_table_highlighter"
+datestamp = "1264029907"
+

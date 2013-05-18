@@ -1,0 +1,13 @@
+; $Id: watchdog_more.info,v 1.1 2010/10/28 17:20:35 quiptime Exp $
+name = Watchdog More
+package = Core - optional
+description = Provides a helper to empty the watchdog database table.<br />Module development by <a href="http://www.quiptime.com">Quiptime Group</a>
+
+core = 6.x
+dependencies[] = dblog
+; Information added by drupal.org packaging script on 2010-10-28
+version = "6.x-1.0"
+core = "6.x"
+project = "watchdog_more"
+datestamp = "1288287046"
+

@@ -1,0 +1,14 @@
+; $Id: megamenu.info,v 1.2 2010/08/22 03:03:52 FilmKnurd Exp $ 
+name = Mega Menu
+description = Transform any menu into a Megamenu (aka megamenu-dropdown), a jQuery-based menu with third level links grouped under the second level.
+package = Menus
+dependencies[] = menu
+dependencies[] = block
+core = 6.x
+
+; Information added by drupal.org packaging script on January 1, 1970 - 00:00
+version = "6.x-2.0-beta2"
+core = "6.x"
+project = "megamenu"
+datestamp = "1297293759"
+

@@ -1,0 +1,4 @@
+name = zutility
+description = Tiện ích sử dụng trong E-QLVB 2012
+core = 6.x
+package = "E-GOV QLVB 2012"

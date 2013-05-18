@@ -1,0 +1,49 @@
+/* $Id: views_table_highlighter.css,v 1.1 2009/12/30 04:45:19 smokris Exp $ */
+
+tr.views-table-highlighter-red.odd              { background-color: #f99; }
+tr.views-table-highlighter-red.even             { background-color: #fbb; }
+tr.views-table-highlighter-red.odd  .active     { background-color: #f88; }
+tr.views-table-highlighter-red.even .active     { background-color: #faa; }
+
+tr.views-table-highlighter-green.odd            { background-color: #DFFFDF; }
+tr.views-table-highlighter-green.even           { background-color: #DFFFDF; }
+tr.views-table-highlighter-green.odd  .active   { background-color: #8f8; }
+tr.views-table-highlighter-green.even .active   { background-color: #afa; }
+
+tr.views-table-highlighter-blue.odd             { background-color: #99f; }
+tr.views-table-highlighter-blue.even            { background-color: #bbf; }
+tr.views-table-highlighter-blue.odd  .active    { background-color: #88f; }
+tr.views-table-highlighter-blue.even .active    { background-color: #aaf; }
+
+tr.views-table-highlighter-yellow.odd           { background-color: #ff9; }
+tr.views-table-highlighter-yellow.even          { background-color: #ffb; }
+tr.views-table-highlighter-yellow.odd  .active  { background-color: #ff8; }
+tr.views-table-highlighter-yellow.even .active  { background-color: #ffa; }
+
+tr.views-table-highlighter-magenta.odd          { background-color: #f9f; }
+tr.views-table-highlighter-magenta.even         { background-color: #fbf; }
+tr.views-table-highlighter-magenta.odd  .active { background-color: #f8f; }
+tr.views-table-highlighter-magenta.even .active { background-color: #faf; }
+
+tr.views-table-highlighter-cyan.odd             { background-color: #9ff; }
+tr.views-table-highlighter-cyan.even            { background-color: #bff; }
+tr.views-table-highlighter-cyan.odd  .active    { background-color: #8ff; }
+tr.views-table-highlighter-cyan.even .active    { background-color: #aff; }
+tr.views-table-highlighter-dadoc a{
+font-weight:normal;
+color:#000;
+
+}
+tr.views-table-highlighter-dadoc {
+font-weight:normal;
+color:#000;
+background-color: #fFf;
+}
+tr.views-table-highlighter-chuadoc {
+background-color: #fFf;
+color:#AA4242;
+}
+tr.views-table-highlighter-chuadoc a {
+font-weight:bold;
+color:#AA4242;
+}

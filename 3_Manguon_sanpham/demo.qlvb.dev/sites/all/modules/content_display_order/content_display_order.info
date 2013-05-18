@@ -1,0 +1,13 @@
+; $Id: content_display_order.info,v 1.1 2010/04/30 13:09:17 skilip Exp $
+name = Content Display Order
+description = Rearrange the display order of CCK fields
+package = CCK
+version = VERSION
+dependencies[] = content
+core = 6.x
+; Information added by drupal.org packaging script on 2010-06-12
+version = "6.x-1.0"
+core = "6.x"
+project = "content_display_order"
+datestamp = "1276362906"
+

@@ -1,0 +1,582 @@
+# $Id: basic_webmail.pot,v 1.1.2.1 2010/10/05 23:47:43 oadaeh Exp $
+#
+# LANGUAGE translation of Drupal (general)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  basic_webmail.module,v 1.3 2010/09/14 22:57:02 oadaeh
+#  basic_webmail.info,v 1.2 2010/08/29 04:38:16 oadaeh
+#  basic_webmail.install,v 1.3 2010/09/14 22:57:02 oadaeh
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2010-10-05 16:43-0700\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: basic_webmail.module:28
+msgid "Send and receive e-mail through an IMAP mail server."
+msgstr ""
+
+#: basic_webmail.module:125;156
+msgid "Basic webmail account settings"
+msgstr ""
+
+#: basic_webmail.module:131;162
+msgid "E-mail account login"
+msgstr ""
+
+#: basic_webmail.module:133;164
+msgid "The login id of your e-mail account."
+msgstr ""
+
+#: basic_webmail.module:138;169
+msgid "The login password of your e-mail account."
+msgstr ""
+
+#: basic_webmail.module:229
+msgid "General settings"
+msgstr ""
+
+#: basic_webmail.module:235
+msgid "Use the user's account e-mail address and password for checking e-mail."
+msgstr ""
+
+#: basic_webmail.module:241
+msgid "Messages per page"
+msgstr ""
+
+#: basic_webmail.module:244
+msgid "The number of messages to show per page when viewing the listing."
+msgstr ""
+
+#: basic_webmail.module:248
+msgid "Number of characters to display"
+msgstr ""
+
+#: basic_webmail.module:251
+msgid "This is the number of characters of the subject that are displayed in the message list before being truncated. Entering a zero (0) here will cause the listing to display all characters of the subject line, no matter how long it is."
+msgstr ""
+
+#: basic_webmail.module:258
+msgid "Small (!small_date)"
+msgstr ""
+
+#: basic_webmail.module:259
+msgid "Medium (!medium_date)"
+msgstr ""
+
+#: basic_webmail.module:260
+msgid "Large (!large_date)"
+msgstr ""
+
+#: basic_webmail.module:261
+msgid "Custom"
+msgstr ""
+
+#: basic_webmail.module:265
+msgid "Format option"
+msgstr ""
+
+#: basic_webmail.module:268
+msgid "Specify how you want the date of the message displayed."
+msgstr ""
+
+#: basic_webmail.module:272
+msgid "Custom format"
+msgstr ""
+
+#: basic_webmail.module:274
+msgid "Specify how you want the Custom date format configured, using the format options of the PHP !date function."
+msgstr ""
+
+#: basic_webmail.module:278
+msgid "Number of attachments"
+msgstr ""
+
+#: basic_webmail.module:281
+msgid "The number of attachments to allow on the contact form. The maximum number of allowed uploads may be limited by PHP. If necessary, check your system's PHP php.ini file for a max_file_uploads directive to change."
+msgstr ""
+
+#: basic_webmail.module:285
+msgid "Attachment location"
+msgstr ""
+
+#: basic_webmail.module:287
+msgid "The file path where to save message attachments."
+msgstr ""
+
+#: basic_webmail.module:292
+msgid "Server settings"
+msgstr ""
+
+#: basic_webmail.module:298
+msgid "Server address"
+msgstr ""
+
+#: basic_webmail.module:300
+msgid "The address to the server you wish to connect to."
+msgstr ""
+
+#: basic_webmail.module:304
+msgid "Connection port"
+msgstr ""
+
+#: basic_webmail.module:307
+msgid "The default IMAP port is 143 if one is not specified."
+msgstr ""
+
+#: basic_webmail.module:311
+msgid "Secure login."
+msgstr ""
+
+#: basic_webmail.module:313
+msgid "Check to make a secure connection to your IMAP Server."
+msgstr ""
+
+#: basic_webmail.module:317
+msgid "Encrypt session using SSL."
+msgstr ""
+
+#: basic_webmail.module:319
+msgid "Use SSL to connect to the server."
+msgstr ""
+
+#: basic_webmail.module:323
+msgid "Validate certificate."
+msgstr ""
+
+#: basic_webmail.module:325
+msgid "When using a secure connection, validate the certificate."
+msgstr ""
+
+#: basic_webmail.module:329
+msgid "Encrypt session using TLS."
+msgstr ""
+
+#: basic_webmail.module:331
+msgid "Use TLS to connect to the server."
+msgstr ""
+
+#: basic_webmail.module:348
+msgid "You have specified Custom as your Format option for your Date format, but you have not specified the configuration of the Cuatom format. Either choose a different Format option, or specify the configuration of the Custom format."
+msgstr ""
+
+#: basic_webmail.module:352
+msgid "The directory does not exist or is not writable, and there was a problem creating the path."
+msgstr ""
+
+#: basic_webmail.module:356
+msgid "The normal port for secure IMAP is 993."
+msgstr ""
+
+#: basic_webmail.module:383;1191;1415
+msgid "!title"
+msgstr ""
+
+#: basic_webmail.module:389;753;808;1170;1176;1187;1396;2629;2638;2716;2770;2779;2868;2914;2923;3012;3073;3384
+msgid "Error"
+msgstr ""
+
+#: basic_webmail.module:390;754;809;1177;1397;2630;2717;2771;2869;2915;3013;3385
+msgid "There was an error connecting to the mail server. Contact the system administrator and/or check the logs for more information."
+msgstr ""
+
+#: basic_webmail.module:423;422
+msgid "There was an error getting the list of messages: !last_error"
+msgstr ""
+
+#: basic_webmail.module:522
+msgid "!mail_box (!total_messages total, !new_messages unread)"
+msgstr ""
+
+#: basic_webmail.module:525
+msgid "!mail_box (!total_messages total)"
+msgstr ""
+
+#: basic_webmail.module:530
+msgid "E-mail (!total_messages total, !new_messages unread)"
+msgstr ""
+
+#: basic_webmail.module:533
+msgid "E-mail (!total_messages total)"
+msgstr ""
+
+#: basic_webmail.module:670;908
+msgid "Unread"
+msgstr ""
+
+#: basic_webmail.module:673;911
+msgid "Att."
+msgstr ""
+
+#: basic_webmail.module:676;914
+msgid "Ans."
+msgstr ""
+
+#: basic_webmail.module:679;917;1611
+msgid "Subject"
+msgstr ""
+
+#: basic_webmail.module:680;918
+msgid "From"
+msgstr ""
+
+#: basic_webmail.module:681;919
+msgid "Date/Time"
+msgstr ""
+
+#: basic_webmail.module:738
+msgid "With checked"
+msgstr ""
+
+#: basic_webmail.module:741
+msgid "Delete"
+msgstr ""
+
+#: basic_webmail.module:742
+msgid "Mark read"
+msgstr ""
+
+#: basic_webmail.module:743
+msgid "Mark unread"
+msgstr ""
+
+#: basic_webmail.module:744
+msgid "Copy"
+msgstr ""
+
+#: basic_webmail.module:745
+msgid "Move"
+msgstr ""
+
+#: basic_webmail.module:772
+msgid "The folder to copy or move to"
+msgstr ""
+
+#: basic_webmail.module:778
+msgid "Update"
+msgstr ""
+
+#: basic_webmail.module:939
+msgid "You have no e-mail."
+msgstr ""
+
+#: basic_webmail.module:976;988;975;987
+msgid "There was an error deleting message #!message_number: !last_error"
+msgstr ""
+
+#: basic_webmail.module:1004
+msgid "!message_count messages were successfully deleted."
+msgstr ""
+
+#: basic_webmail.module:1028;1027
+msgid "There was an error setting the flag of message #!message_number: !last_error"
+msgstr ""
+
+#: basic_webmail.module:1037
+msgid "!message_count messages were successfully marked as read."
+msgstr ""
+
+#: basic_webmail.module:1061;1060
+msgid "There was an error clearing the flag of message #!message_number: !last_error"
+msgstr ""
+
+#: basic_webmail.module:1070
+msgid "!message_count messages were successfully marked as unread."
+msgstr ""
+
+#: basic_webmail.module:1094;2877;1093;2876
+msgid "There was an error copying message #!message_number: !last_error"
+msgstr ""
+
+#: basic_webmail.module:1109
+msgid "!message_count messages were successfully copied to !folder_name."
+msgstr ""
+
+#: basic_webmail.module:1133;3021;1132;3020
+msgid "There was an error moving message #!message_number: !last_error"
+msgstr ""
+
+#: basic_webmail.module:1148
+msgid "!message_count messages were successfully moved to !folder_name."
+msgstr ""
+
+#: basic_webmail.module:1170
+msgid "No message_number was given when attempting to view a message."
+msgstr ""
+
+#: basic_webmail.module:1187;2638;2779;2923;1186;1405;2637;2778;2922
+msgid "There was an error retrieving the message header: !last_error"
+msgstr ""
+
+#: basic_webmail.module:1569
+msgid "New mail message"
+msgstr ""
+
+#: basic_webmail.module:1581
+msgid "To"
+msgstr ""
+
+#: basic_webmail.module:1586
+msgid "One or more recepients of this message. Separate the addresses with a comma (,)."
+msgstr ""
+
+#: basic_webmail.module:1592
+msgid "CC"
+msgstr ""
+
+#: basic_webmail.module:1597
+msgid "One or more e-mail addresses to receive a carbon copy. Separate the addresses with a comma (,)."
+msgstr ""
+
+#: basic_webmail.module:1601
+msgid "BCC"
+msgstr ""
+
+#: basic_webmail.module:1606
+msgid "One or more e-mail addresses to receive a blind carbon copy. These e-mail addresses will not be visible in the message. Separate the addresses with a comma (,)."
+msgstr ""
+
+#: basic_webmail.module:1618
+msgid "Message"
+msgstr ""
+
+#: basic_webmail.module:1627
+msgid "Attachments from original message"
+msgstr ""
+
+#: basic_webmail.module:1629
+msgid "Check any attachments from the original you want to include in this message."
+msgstr ""
+
+#: basic_webmail.module:1636
+msgid "Attachment #!number"
+msgstr ""
+
+#: basic_webmail.module:1642
+msgid "Send a copy to myself."
+msgstr ""
+
+#: basic_webmail.module:1652
+msgid "Save in INBOX.Drafts."
+msgstr ""
+
+#: basic_webmail.module:1657
+msgid "Send"
+msgstr ""
+
+#: basic_webmail.module:1908;2187;1907;2186
+msgid "There was an error connecting to the server: !last_error"
+msgstr ""
+
+#: basic_webmail.module:1930;1929
+msgid "There was an error creating the copy of the message for the sent folder: !last_error"
+msgstr ""
+
+#: basic_webmail.module:1938;1937
+msgid "There was an error saving a copy of the message to the sent folder: !last_error"
+msgstr ""
+
+#: basic_webmail.module:2197;2196
+msgid "There was an error creating the message for the INBOX.Drafts folder: !last_error"
+msgstr ""
+
+#: basic_webmail.module:2227;2226
+msgid "There was an error saving the message in the INBOX.Drafts folder: !last_error"
+msgstr ""
+
+#: basic_webmail.module:2677
+msgid "Delete message?"
+msgstr ""
+
+#: basic_webmail.module:2679
+msgid "Are you sure you want to delete the message from !from_address, sent on !message_date with the subject of '!message_subject'?"
+msgstr ""
+
+#: basic_webmail.module:2733;2732
+msgid "There was an error deleting the message: !last_error"
+msgstr ""
+
+#: basic_webmail.module:2736
+msgid "The message was deleted."
+msgstr ""
+
+#: basic_webmail.module:2826
+msgid "The folder to which you want to copy the message"
+msgstr ""
+
+#: basic_webmail.module:2842
+msgid "Copy message?"
+msgstr ""
+
+#: basic_webmail.module:2844
+msgid "Copy message from !from_address, sent on !message_date with the subject of '!message_subject'?"
+msgstr ""
+
+#: basic_webmail.module:2880
+msgid "The message was copied."
+msgstr ""
+
+#: basic_webmail.module:2970
+msgid "The folder to which you want to move the message"
+msgstr ""
+
+#: basic_webmail.module:2986
+msgid "Move message?"
+msgstr ""
+
+#: basic_webmail.module:2988
+msgid "Move message from !from_address, sent on !message_date with the subject of '!message_subject'?"
+msgstr ""
+
+#: basic_webmail.module:3024
+msgid "The message was moved."
+msgstr ""
+
+#: basic_webmail.module:3073;3072
+msgid "There was an error retrieving the message structure: !last_error"
+msgstr ""
+
+#: basic_webmail.module:422;427;514;556;837;975;987;999;1027;1060;1093;1104;1132;1143;1186;1348;1389;1405;1411;1563;1907;1915;1929;1937;1944;2186;2196;2211;2216;2226;2233;2534;2535;2549;2556;2575;2576;2637;2697;2732;2739;2745;2778;2821;2876;2883;2889;2922;2965;3020;3027;3033;3072;3392;3397;3403;0
+msgid "basic_webmail"
+msgstr ""
+
+#: basic_webmail.module:427
+msgid "There was an error deleting old message records from the basic_webmail_messages table."
+msgstr ""
+
+#: basic_webmail.module:514
+msgid "There was an error inserting message records into the basic_webmail_messages table."
+msgstr ""
+
+#: basic_webmail.module:556;837;1348;1563;1944;2233;2697;2745;2821;2889;2965;3033;3403
+msgid "There was an error closing the IMAP stream: !last_error"
+msgstr ""
+
+#: basic_webmail.module:999;1104;1143;2216;2739;2883;3027
+msgid "There was an error expunging the mailboxes: !last_error"
+msgstr ""
+
+#: basic_webmail.module:1389
+msgid "There was an attempt to reply to or forward a message w/o including the message id."
+msgstr ""
+
+#: basic_webmail.module:1411
+msgid "There was an error retrieving the message body: !last_error"
+msgstr ""
+
+#: basic_webmail.module:1915
+msgid "There was an error marking the replied to message as answered: !last_error"
+msgstr ""
+
+#: basic_webmail.module:2211
+msgid "There was an error deleting message #!message_number from the INBOX.Drafts folder: !last_error"
+msgstr ""
+
+#: basic_webmail.module:2534
+msgid "Your !admin_settings_link have not yet been configured. Please do that before checking your e-mail."
+msgstr ""
+
+#: basic_webmail.module:2535
+msgid "Your mail settings have not been configured yet. Please do that before checking your e-mail."
+msgstr ""
+
+#: basic_webmail.module:2549;2556
+msgid "There was an error accessing the remote server: !last_error"
+msgstr ""
+
+#: basic_webmail.module:2575
+msgid "The !server_settings for Basic webmail have not yet been configured. Please do that before checking your e-mail."
+msgstr ""
+
+#: basic_webmail.module:2576
+msgid "The server settings for Basic webmail have not yet been configured. Please do that before checking your e-mail."
+msgstr ""
+
+#: basic_webmail.module:3392
+msgid "There was an error subscribing to the INBOX mailbox: !last_error"
+msgstr ""
+
+#: basic_webmail.module:3397
+msgid "There was an error subscribing to the !mailbox mailbox: !last_error"
+msgstr ""
+
+#: basic_webmail.module:40
+msgid "administer basic_webmail"
+msgstr ""
+
+#: basic_webmail.module:40
+msgid "access basic_webmail"
+msgstr ""
+
+#: basic_webmail.module:52 basic_webmail.info:0
+msgid "Basic webmail"
+msgstr ""
+
+#: basic_webmail.module:56
+msgid "Configure the mail server."
+msgstr ""
+
+#: basic_webmail.module:63
+msgid "E-mail"
+msgstr ""
+
+#: basic_webmail.module:65
+msgid "Send and/or receive e-mail."
+msgstr ""
+
+#: basic_webmail.module:105
+msgid "Basic webmail autocomplete"
+msgstr ""
+
+#: basic_webmail.install:14
+msgid "This is a temporary holding place for the basic information of the e-mail messages. This is used for the message listing."
+msgstr ""
+
+#: basic_webmail.install:17
+msgid "The user to whom this message belongs."
+msgstr ""
+
+#: basic_webmail.install:23
+msgid "The message id."
+msgstr ""
+
+#: basic_webmail.install:29
+msgid "The subject of the message."
+msgstr ""
+
+#: basic_webmail.install:35
+msgid "Who the message is from."
+msgstr ""
+
+#: basic_webmail.install:41
+msgid "When the message was sent."
+msgstr ""
+
+#: basic_webmail.install:47
+msgid "TRUE if the message is unread."
+msgstr ""
+
+#: basic_webmail.install:54
+msgid "TRUE if there are any attachments."
+msgstr ""
+
+#: basic_webmail.install:61
+msgid "TRUE if the message was replied to."
+msgstr ""
+
+#: basic_webmail.info:0
+msgid "A basic, IMAP-based webmail client."
+msgstr ""
+
+#: basic_webmail.info:0
+msgid "Mail"
+msgstr ""
+

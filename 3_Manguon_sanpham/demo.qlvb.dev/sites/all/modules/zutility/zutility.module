@@ -1,0 +1,381 @@
+<?php
+function zutility_init(){
+    drupal_add_css (drupal_get_path ( 'module', 'zutility' ) . '/zutility.css' );
+}
+function zutility_menu() {
+    $items['zutility/get/sovanban'] = array(    
+      'page callback' => 'zutility_get_sovanban',
+      'access arguments' => array('access content'),    
+      'type' => MENU_CALLBACK,
+    );    
+    
+    $items['login'] = array(
+     'title' => 'Đăng nhập hệ thống',
+     'page callback' => 'zutility_login',
+     'access callback' => TRUE,
+     'type' => MENU_CALLBACK,
+    );
+    $items['403.html'] = array(
+     'title' => 'Truy cập bị từ chối',
+     'page callback' => 'zutility_error403',
+     'access callback' => TRUE,
+     'type' => MENU_CALLBACK,
+    );
+    $items['404.html'] = array(
+     'title' => 'Không tìm thấy trang yêu cầu',
+     'page callback' => 'zutility_error404',
+     'access callback' => TRUE,
+     'type' => MENU_CALLBACK,
+    );
+   return $items;
+}
+
+/**
+ * Impementation hook_nodeapi
+ * Enter description here ...
+ * @param unknown_type $node
+ * @param unknown_type $op
+ * @param unknown_type $arg
+ * @author truongnx.ithut@gmail.com
+ */
+function zutility_nodeapi(&$node, $op, $arg = 0) {       
+  switch ($op) {
+    case 'presave' :     
+      if($node->type == '009_danhba'){
+         _zutility_danhba_presave($node);
+         return;
+      }
+      break;
+    case 'insert' :
+    case 'update' :
+      break;
+  }
+}
+
+function _zutility_danhba_presave($node){
+   $full_name=$node->field_009_ten[0]['value'];
+   if($full_name && !$node->field_009_tentat[0]['value']){
+     $node->field_009_tentat[0]['value']=  _basic_webmail_shorten_string($full_name);     
+   }
+}
+
+/**
+ * Implementation hook_form_alert
+ * @param unknown_type $form
+ * @param unknown_type $form_state
+ * @param unknown_type $form_id
+ */
+function zutility_form_alter(&$form, &$form_state, $form_id) {    
+  if ($form_id == '004_vanbandi_node_form') {
+    $form['#pre_render'][] = 'zutility_pre_render';
+    $form['field_004_loaivanbandi']['#pre_render']=array('_zutility_loaivanbandi_pre_render');
+    $form['#attributes']['class']='form-004-vbdi';
+    return ;
+  }
+  if ($form_id == '003_vanbanden_node_form') {    
+    $form['#after_build'][] = 'zutility_after_build';
+    return;
+  }
+  
+  
+  if ($form_id == '009_danhba_node_form') {        
+    $form['#validate'][] = 'zutility_email_validate';
+    $form['#after_build'][] = 'zutility_danhba_after_build';
+    return;
+  }
+}
+function zutility_email_validate($form, &$form_state){
+  
+  if ($form_state['values']['field_009_email'][0]['value'] && !valid_email_address($form_state['values']['field_009_email'][0]['value'])) {
+    form_set_error('field_009_email', t('Địa chỉ Email không hợp lệ'));
+  }
+
+}
+
+function zutility_danhba_after_build($form, &$form_state){
+  $form['field_009_iddonvi']['#type']='value';
+  return $form;
+}
+function zutility_after_build($form, &$form_state){
+   
+  Global $user; 
+  popups_add_popups();
+  $nid=$form['#node']->field_003_dvguivb[0]['nid'];  
+  if($nid){
+    $output = l("Sửa thông tin đơn vị gửi văn bản", "node/" . $nid . "/edit", array('attributes'=>array('class' => 'popups')));
+  }else{
+    $output = l("Thêm đơn vị vào danh bạ", "node/add/009-danhba", array('attributes'=>array('class' => 'popups')));
+  }  
+  $form['group_003_thongtinvbd']['field_003_dvguivb'][0]['#suffix']=$output;  
+  $form['group_003_thongtinvbd']['field_003_tuemail']['#type']='value';
+  return $form;
+}
+/**
+ * 
+ * Enter description here ...
+ * @param unknown_type $form
+ * @author truongnx.ithut@gmail.com
+ */
+function zutility_pre_render($form) {
+  //set auto_complete
+  //$form['group_004_thongtinvbdi']['field_004_diachiemail'][0]['value']['#autocomplete_path'] = 'basic_webmail/autocomplete';
+  unset($form['group_004_thongtinvbdi']['field_004_diachiemail'][0]['value']['#attributes']['class']);
+  if (!$form['#node']->nid) {
+    $form['group_004_thongtinvbdi']['field_004_guilai']['#type']='value';
+  }  
+  return $form;
+}
+/**
+ *
+ * @return string 
+ */
+function _zutility_loaivanbandi_pre_render($element){
+    $element['value']['#ahah'] = array(
+                'event'   => 'change',
+                'path'    => 'zutility/get/sovanban',
+                'wrapper' => 'edit-field-004-sovanban-0-value-wrapper',
+                'method'  => 'replace',
+	   			
+  );
+  // this part may be naughty
+  form_expand_ahah($element['value']);
+  // $element doesn't pass by reference, so don't forget to return it
+  return $element;
+}
+function zutility_get_sovanban(){
+    $form_state = array ('submitted' => FALSE );
+    $form_build_id = $_POST ['form_build_id'];
+    $form = form_get_cache ( $form_build_id, $form_state );
+    $args = $form ['#parameters'];
+    $form_id = array_shift ( $args );
+    $form ['#post'] = $_POST;
+    $form = form_builder ( $form_id, $form, $form_state );
+    $form_element = $form['group_004_thongtinvbdi']['field_004_sovanban'][0];
+    //so danh muc cua loai tai lieu
+    $sodanhmuc=$form['group_004_thongtinvbdi']['field_004_loaivanbandi']['#value']['value'];
+    switch ($sodanhmuc) {
+            case "1" :
+                    $idnode = 63;
+                    break;
+            case "2" :
+                    $idnode = 124;
+                    break;
+            case "3" :
+                    $idnode = 127;
+                    break;
+            case "4" :
+                    $idnode = 136;
+                    break;
+            case "5" :
+                    $idnode = 64;
+                    break;
+            case "6" :
+                    $idnode = 149;
+                    break;
+            case "7" :
+                    $idnode = 150;
+                    break;
+            case "8" :
+                    $idnode = 151;
+                    break;
+            case "9" :
+                    $idnode = 137;
+                    break;
+            case "10" :
+                    $idnode = 14;
+                    break;
+            case "11" :
+                    $idnode = 138;
+                    break;
+            case "15" :
+                    $idnode = 65;
+                    break;
+            case "20" :
+                    $idnode = 66;
+                    break;
+            case "25" :
+                    $idnode = 67;
+                    break;
+            case "30" :
+                    $idnode = 68;
+                    break;
+            case "35" :
+                    $idnode = 69;
+                    break;
+            case "40" :
+                    $idnode = 70;
+                    break;
+            case "41" :
+                    $idnode = 139;
+                    break;
+            case "42" :
+                    $idnode = 140;
+                    break;
+            case "43" :
+                    $idnode = 141;
+                    break;
+            case "44" :
+                    $idnode = 142;
+                    break;
+            case "45" :
+                    $idnode = 143;
+                    break;
+            case "46" :
+                    $idnode = 144;
+                    break;
+            case "47" :
+                    $idnode = 45;
+                    break;
+            case "48" :
+                    $idnode = 71;
+                    break;
+            case "50" :
+                    $idnode = 72;
+                    break;
+            case "55" :
+                    $idnode = 73;
+                    break;
+            case "60" :
+                    $idnode = 74;
+                    break;
+            case "65" :
+                    $idnode = 75;
+                    break;
+            case "70" :
+                    $idnode = 76;
+                    break;
+            case "75" :
+                    $idnode = 77;
+                    break;
+            case "80" :
+                    $idnode = 78;
+                    break;
+            case "85" :
+                    $idnode = 79;
+                    break;
+            case "90" :
+                    $idnode = 80;
+                    break;
+            case "91" :
+                    $idnode = 146;
+                    break;
+            case "92" :
+                    $idnode = 147;
+                    break;
+            case "93" :
+                    $idnode = 148;
+                    break;
+    }
+    if(isset($idnode)){
+        $current_no=db_result(db_query("SELECT field_007_sotailieu_value 
+                                        FROM {content_type_007_sotailieu} 
+                                        WHERE nid=%d",$idnode));
+        $form_element['value']['#value']=$current_no+1;
+    }
+
+    $output = drupal_render($form_element);    
+    print drupal_to_js(array('status' => TRUE, 'data' => $output));
+    exit();
+    
+}
+/**
+ * 
+ * @global type $user
+ * @return type
+ */
+function zutility_login(){ 
+    
+    $destination=urlencode($_REQUEST['destination']);
+    //Neu ko co destination
+    if(!$destination){
+         $fontpage=variable_get('site_frontpage', 'node'); 
+         header('Location: '. url('login',array('query'=>array('destination'=>$fontpage))));
+         exit;
+    }
+    if (user_is_anonymous()){       
+        return drupal_get_form('user_login');
+    }
+    header('Location: '. url($destination));
+    exit;       
+}
+/**
+ * 
+ * @return type
+ */
+function zutility_error403(){    
+    if (user_is_anonymous()){
+       $fontpage=variable_get('site_frontpage', 'node'); 
+       $destination=urlencode($_REQUEST['destination']);
+       $redirect=is_null($destination)? $fontpage :$destination;
+       header('Location: '. url('login',array('query'=>array('destination'=>$redirect))));
+       exit;
+    }
+    
+    return t('Bạn không có đủ quyền truy cập trang này.');
+}
+/**
+ * 
+ * @return type
+ */
+function zutility_error404(){
+    if (user_is_anonymous()){       
+       $fontpage=variable_get('site_frontpage', 'node'); 
+       $destination=urlencode($_REQUEST['destination']);
+       $redirect=is_null($destination)? $fontpage :$destination;
+       header('Location: '. url('login',array('query'=>array('destination'=>$redirect))));
+       exit;
+    }    
+    return t('Không tìm thấy trang yêu cầu.');
+}
+/*
+ * 
+ */
+function zutility_link_alter(&$links, $node, $comment = NULL) {
+    if ($node->type == '003_vanbanden') {
+        if (isset($links['006_xulycv_field_006_vanbandenxl'])) {
+            popups_add_popups();
+            $links['006_xulycv_field_006_vanbandenxl']['attributes']['class'] = 'popups-form-reload';
+            $swap = $links['006_xulycv_field_006_vanbandenxl'];
+            unset($links['006_xulycv_field_006_vanbandenxl']);
+            $links[] = $swap;
+        }
+    }
+}
+/*
+ *  Implementation hook_link().
+ */
+function zutility_link($type, $object, $teaser = FALSE) {
+    
+    if($object->type=='003_vanbanden'){
+        // Check edit node permission
+        if(node_access('update', $object)){
+            $links['node_edit'] = array(
+                'href'=>'node/' . $object->nid . '/edit',
+                'title'=>t('Edit'),
+                'attributes'=>array('class'=>'popups-form-reload'),
+            );
+                
+        }
+        // Check Workflow permission        
+        if(workflow_node_tab_access($object)){            
+            $links['node_workflow'] = array(
+                'href'=>'node/' . $object->nid . '/workflow',                
+                'title'=>t('Workflow'),
+                'attributes'=>array('class'=>'popups-form-reload'),
+            );
+                
+        }
+        return $links;
+    }
+    if($object->type=='004_vanbandi'){
+        if(node_access('update', $object)){
+           $links['node_edit'] = array(
+                'href'=>'node/' . $object->nid . '/edit',
+                'title'=>t('Edit'),
+                'attributes'=>array('class'=>'popups-form-reload'),
+            ); 
+        }
+        return $links;
+    }
+    return null;
+}

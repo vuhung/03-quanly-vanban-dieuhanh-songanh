@@ -1,0 +1,28 @@
+<?php
+// $Id: views_table_highlighter.module,v 1.1 2009/12/30 04:45:19 smokris Exp $
+
+function views_table_highlighter_init() {
+  drupal_add_css(drupal_get_path('module', 'views_table_highlighter') . '/views_table_highlighter.css');
+}
+
+function views_table_highlighter_views_api() {
+  return array(
+    'api' => 2.0,
+  );
+}
+
+function views_table_highlighter_preprocess(&$variables, $hook) {
+  if ($hook === 'views_view_table'
+    && isset($variables['view']->style_plugin->options['views_table_highlighter'])) {
+    foreach($variables['view']->result as $i=>$fieldset) {
+      $GLOBALS['views_table_highlighter_fieldset'] = (array)$fieldset;
+      $color = drupal_eval(
+        '<?php extract($GLOBALS["views_table_highlighter_fieldset"]); '
+        .$variables['view']->style_options['views_table_highlighter']['code']
+      );
+
+    if($color)
+      $variables['row_classes'][$i][] = "views-table-highlighter-$color";
+    }
+  }
+}

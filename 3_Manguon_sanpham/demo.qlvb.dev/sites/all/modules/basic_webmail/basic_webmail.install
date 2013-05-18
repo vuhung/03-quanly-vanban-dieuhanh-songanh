@@ -1,0 +1,90 @@
+<?php
+// $Id: basic_webmail.install,v 1.3 2010/09/14 22:57:02 oadaeh Exp $
+
+/**
+ * @file
+ * Install, update and uninstall functions for the Basic webmail module.
+ */
+
+/**
+ * Implementation of hook_schema().
+ */
+function basic_webmail_schema() {
+  $schema['basic_webmail_messages'] = array(
+    'description' => t('This is a temporary holding place for the basic information of the e-mail messages. This is used for the message listing.'),
+    'fields' => array(
+      'user_id' => array(
+        'description' => t('The user to whom this message belongs.'),
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => FALSE,
+      ),
+      'mid' => array(
+        'description' => t('The message id.'),
+        'type' => 'int',
+        'unsigned' => TRUE,
+        'not null' => FALSE,
+      ),
+      'msubject' => array(
+        'description' => t('The subject of the message.'),
+        'type' => 'varchar',
+        'length' => 256,
+        'not null' => FALSE,
+      ),
+      'mfrom' => array(
+        'description' => t('Who the message is from.'),
+        'type' => 'varchar',
+        'length' => 256,
+        'not null' => FALSE,
+      ),
+      'mdate' => array(
+        'description' => t('When the message was sent.'),
+        'type' => 'varchar',
+        'length' => 64,
+        'not null' => FALSE,
+      ),
+      'mread' => array(
+        'description' => t('TRUE if the message is unread.'),
+        'type' => 'int',
+        'size' => 'tiny',
+        'unsigned' => TRUE,
+        'not null' => FALSE,
+      ),
+      'mboxid' => array(
+        'description' => t('Mailbox ID.'),
+        'type' => 'int',
+        'size' => 'small',
+        'unsigned' => TRUE,
+        'not null' => FALSE,
+      ),
+      'manswer' => array(
+        'description' => t('TRUE if the message was replied to.'),
+        'type' => 'int',
+        'size' => 'tiny',
+        'unsigned' => TRUE,
+        'not null' => FALSE,
+      ),
+    ),
+  );
+
+  return $schema;
+}
+
+
+/**
+ * Implementation of hook_install().
+ */
+function basic_webmail_install() {
+  // Create tables.
+  drupal_install_schema('basic_webmail');
+}  //  End of basic_webmail_install().
+
+
+/**
+ * Implementation of hook_uninstall().
+ */
+function basic_webmail_uninstall() {
+  // Remove tables.
+  drupal_uninstall_schema('basic_webmail');
+  db_query("DELETE FROM {variable} WHERE name LIKE 'basic_webmail_%'");
+}  //  End of basic_webmail_uninstall().

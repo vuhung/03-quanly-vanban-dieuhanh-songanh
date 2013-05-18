@@ -1,0 +1,40 @@
+<?php
+// $Id:
+
+/**
+ * @file
+ * Provides a helper to empty the watchdog database table.
+ *
+ */
+
+/**
+ * Implementation of hook_form_alter().
+ */
+function watchdog_more_form_alter(&$form, &$form_state, $form_id) {
+  switch ($form_id) {
+    case 'dblog_filter_form':
+      $form['empty'] = array(
+        '#type' => 'fieldset',
+        '#title' => t('Empty log'),
+        '#collapsible' => TRUE,
+        '#collapsed' => TRUE,
+      );
+      $form['empty']['submit'] = array(
+        '#type' => 'submit',
+        '#value' => t('Empty log now'),
+      );
+
+      $form['#submit'][] = 'watchdog_more_dblog_filter_form_submit';
+
+      break;
+  }
+}
+
+/**
+ * The action to empty the watchdog database table.
+ */
+function watchdog_more_dblog_filter_form_submit($form, &$form_state) {
+  db_query("TRUNCATE TABLE {watchdog}");
+  $message = t('The log table has been emptied.');
+  drupal_set_message($message, 'status');
+}

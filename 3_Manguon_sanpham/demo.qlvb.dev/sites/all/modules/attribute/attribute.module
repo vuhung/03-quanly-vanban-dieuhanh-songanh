@@ -1,0 +1,230 @@
+<?php
+
+/**
+ * Implementation of hook_init().
+ */
+function attribute_init() {
+  drupal_add_css(drupal_get_path('module', 'attribute') .'/attribute.css');
+}
+
+/**
+ * Implementation of hook_theme().
+ */
+function attribute_theme() {
+  return array(
+    'attribute'                   => array('arguments' => array('element' => NULL)),
+    'attribute_formatter_default' => array('arguments' => array('element' => NULL)),
+  );
+}
+
+/**
+ * Implementation of hook_field_info().
+ */
+function attribute_field_info() {
+  return array(
+    'attribute' => array(
+      'label' => t('Attribute'),
+      'description' => t('Store textfield pair in the database.'),
+    ),
+  );
+}
+
+/**
+ * Implementation of hook_field_settings().
+ */
+function attribute_field_settings($op, $field) {
+
+  switch ($op) {
+
+    case 'database columns':
+      $columns['attribute'] = array('type' => 'varchar', 'length' => 255, 'not null' => FALSE, 'sortable' => TRUE, 'views' => TRUE, 'default' => '');
+      $columns['value']     = array('type' => 'varchar', 'length' => 255, 'not null' => FALSE, 'sortable' => TRUE, 'views' => TRUE, 'default' => '');
+    return $columns;
+
+  }
+
+}
+
+/**
+ * Implementation of hook_field().
+ */
+function attribute_field($op, &$node, $field, &$items, $teaser, $page) {
+
+  switch ($op) {
+
+    case 'sanitize':
+      foreach ($items as $delta => $item) { // drupal_set_message('<pre>111' . check_plain(print_r($item, TRUE)) . '</pre>');
+        $items[$delta]['safe_attribute'] = check_plain($item['attribute']);
+        $items[$delta]['safe_value'] = check_plain($item['value']);
+      }
+  }
+}
+
+/**
+ * Implementation of hook_content_is_empty().
+ */
+function attribute_content_is_empty($item, $field) {
+  if (empty($item['attribute']) && empty($item['value'])) {
+    return TRUE;
+  }
+  return FALSE;
+}
+
+/**
+ * Implementation of hook_field_formatter_info().
+ */
+function attribute_field_formatter_info() {
+  return array(
+    'default' => array(
+      'label' => t('Default'),
+      'field types' => array('attribute'),
+      'multiple values' => CONTENT_HANDLE_CORE,
+    ),
+  );
+}
+
+/**
+ * Theme function for 'default' attribute field formatter.
+ */
+function theme_attribute_formatter_default($element) {
+
+  $output  = '<div class="clear-block">';
+  $output .= '  <div class="attribute-attribute attribute-field-column">' . $element['#item']['attribute'] . '</div>';
+  $output .= '  <div class="attribute-value attribute-field-column">' . $element['#item']['value'] . '</div>';
+  $output .= '</div>';
+
+  return $output;
+
+}
+
+/**
+ * Implementation of hook_widget_info().
+ *
+ * Here we indicate that the content module will handle
+ * the default value and multiple values for these widgets.
+ */
+function attribute_widget_info() {
+  return array(
+    'attribute' => array(
+      'label' => t('Attribute / Value Pair'),
+      'field types' => array('attribute'),
+      'multiple values' => CONTENT_HANDLE_CORE,
+    ),
+  );
+}
+
+/**
+ * Implementation of FAPI hook_elements().
+ *
+ * Any FAPI callbacks needed for individual widgets can be declared here,
+ * and the element will be passed to those callbacks for processing.
+ *
+ * Drupal will automatically theme the element using a theme with
+ * the same name as the hook_elements key.
+ */
+function attribute_elements() {
+  return array(
+
+    'attribute' => array(
+      '#input' => TRUE,
+      '#process' => array('attribute_process'),
+    ),
+
+  );
+}
+
+/**
+ * Process an individual element.
+ *
+ * Build the form element. When creating a form using FAPI #process,
+ * note that $element['#value'] is already set.
+ *
+ * The $fields array is in $form['#field_info'][$element['#field_name']].
+ */
+function attribute_process($element, $edit, $form_state, $form) {
+
+  $defaults  = $element['#value'];
+
+  $element['attribute'] = array(
+    '#title' => t('Attribute'),
+    '#type' => 'textfield',
+    '#maxlength' => '255',
+    '#default_value' => $defaults['attribute'],
+    '#weight' => 1,
+  );
+
+  $element['value'] = array(
+    '#title' => t('Value'),
+    '#type' => 'textfield',
+    '#maxlength' => '255',
+    '#default_value' => $defaults['value'],
+    '#weight' => 2,
+  );
+
+  return $element;
+}
+
+/**
+ * Implementation of hook_widget().
+ *
+ * Attach a single form element to the form. It will be built out and
+ * validated in the callback(s) listed in hook_elements. We build it
+ * out in the callbacks rather than here in hook_widget so it can be
+ * plugged into any module that can provide it with valid
+ * $field information.
+ *
+ * Content module will set the weight, field name and delta values
+ * for each form element. This is a change from earlier CCK versions
+ * where the widget managed its own multiple values.
+ *
+ * If there are multiple values for this field, the content module will
+ * call this function as many times as needed.
+ *
+ * @param $form
+ *   the entire form array, $form['#node'] holds node information
+ * @param $form_state
+ *   the form_state, $form_state['values'][$field['field_name']]
+ *   holds the field's form values.
+ * @param $field
+ *   the field array
+ * @param $items
+ *   array of default values for this field
+ * @param $delta
+ *   the order of this item in the array of subelements (0, 1, 2, etc)
+ *
+ * @return
+ *   the form item for a single element for this field
+ */
+function attribute_widget(&$form, &$form_state, $field, $items, $delta = 0) {
+  $element = array(
+    '#type' => $field['widget']['type'],
+    '#default_value' => isset($items[$delta]) ? $items[$delta] : '',
+    '#title' => $field['widget']['label'],
+  );
+  return $element;
+}
+
+/**
+ * FAPI theme for an individual attribute elements.
+ *
+ * The textfields are already rendered by the textfield theme and the html
+ * output lives in $element['#children']. Override this theme to make
+ * custom changes to the output.
+ *
+ * $element['#field_name'] contains the field name
+ * $element['#delta]  is the position of this element in the group
+ */
+function theme_attribute($element) {
+
+  drupal_add_css(drupal_get_path('module', 'attribute') .'/attribute.css');
+
+  $output = '';
+
+  $output .= '<div class="attribute-field-subrow clear-block">';
+  $output .= '  <div class="attribute-field-attribute attribute-field-column">' . theme('textfield', $element['attribute']) . '</div>';
+  $output .= '  <div class="attribute-field-value attribute-field-column">' .     theme('textfield', $element['value'])     . '</div>';
+  $output .= '</div>';
+
+  return $output;
+
+}

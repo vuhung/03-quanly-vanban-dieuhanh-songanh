@@ -1,0 +1,6 @@
+name = "Basic webmail"
+description = "A basic, IMAP-based webmail client."
+dependencies[] = "filefield_paths"
+dependencies[] = "filefield"
+package = "E-GOV QLVB 2012"
+core = 6.x

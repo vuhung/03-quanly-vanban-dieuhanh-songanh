@@ -1,0 +1,260 @@
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+caption, th, td {
+    font-weight: normal;
+    text-align: left;
+}
+blockquote, q {
+    quotes: none;
+}
+.clear-left {
+    clear: left;
+}
+.clear-right {
+    clear: left;
+}
+.group:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.flash {
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    font-size: 0.875em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+}
+.flash.error {
+    background: none repeat scroll 0 0 #E05F4F;
+}
+.flash.notice {
+    background: none repeat scroll 0 0 #6AB915;
+}
+body {
+    color: #111111;
+    font-family: 'Helvetica Neue',helvetica,arial,sans-serif;
+}
+a {
+    color: #005889;
+    text-decoration: none;
+}
+a:hover {
+    color: #0079BC;
+    text-decoration: underline;
+}
+#old-browser {
+    background: none repeat scroll 0 0 #FFF0B3;
+    font-size: 0.875em;
+    padding: 0.825em;
+    text-align: center;
+}
+#header {
+    background: url("header-bkg.png") repeat-x scroll 0 0 #005889;
+    margin: 0 auto;
+    height: 65px;
+    text-align: center;
+}
+#header #logo {
+    float: left;
+    font-size: 1.125em;
+    padding: 0.7em 0 0 0.825em;
+   
+}
+#header #logo a {
+    color: #FFFFFF;
+}
+#header span.title {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: transparent;    
+    background-origin: padding-box;
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 119px 18px;
+    display: inline-block;
+    height: 18px;
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    width: 119px;
+}
+
+#content {
+    margin: 2.25em auto;
+    max-width: 1200px;
+    width: 90%;
+}
+
+
+#footer-container {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-top: 1px solid #E3E3E3;
+}
+#footer {
+    font-size: 0.75em;
+    margin: 0 auto;    
+    padding: 22px; 
+    width: 90%;
+}
+
+#footer a.legal {
+    color: #CCCCCC;
+}
+#footer p.top {
+    float: right;
+    text-align: right;
+}
+#footer p.top a {
+    border: 1px solid #E5ECF3;
+    border-radius: 3px 3px 3px 3px;
+    padding: 0.5em 0.8em;
+}
+#footer p.top a:hover {
+    background: none repeat scroll 0 0 #005889;
+    border: 1px solid #005889;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.box {
+    background: url("bkg-pattern.png") repeat scroll 0 0 #DBE7EE;
+    padding-top: 90px;
+}
+
+.box #container {
+    background: none repeat scroll 0 0 #FFFFFF;
+    margin: 0 auto 40px;
+    max-width: 510px;
+    width: 90%;
+    box-shadow: 8px 8px 8px #888888;
+}
+.box #main .link-item {
+    border-bottom: medium none;
+}
+.box .forgotten-password {
+    font-size: 0.75em;
+}
+.box form {
+    width: 100%;
+}
+.box form .field {
+    margin-bottom: 1em;
+}
+.box form .field span {
+    color: #CCCCCC;
+    font-size: 0.75em;
+}
+.box form .form-text.required{
+    background: url("field-bkg.png") repeat-x scroll 0 0 transparent;
+    border: 1px solid #E3E3E3;
+    font-size: 0.875em;
+    padding: 0.5em;
+    width: 96%;
+}
+.box form .text-area textarea {
+    font-size: 0.75em;
+    height: 6em;
+}
+.box form label {
+    font-size: 0.875em;
+}
+.box form .form-submit {
+    background: none repeat scroll 0 0 #005889;
+    border: 0 none;
+    border-radius: 5px 5px 5px 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 0.875em;
+    padding: 0.5em 0.7em;
+}
+.box #content {
+    width: 90%;
+}
+
+.box #ui-active-menuitem {
+    background: none repeat scroll 0 0 #E5ECF3;
+}
+.box .account-cancellation h3 {
+    font-weight: normal;
+}
+.box .account-cancellation p {
+    font-size: 0.875em;
+    margin-top: 1em;
+}
+.box .closed {
+    text-align: center;
+}
+.box.error #header #logo {
+    height: 1.8em;
+}
+.box.error h1 {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-bottom: 0.825em;
+}
+#content {
+    margin: 0;
+    width: 100%;
+}
+
+
+#footer #footer-extras {
+    display: none;
+}
+#footer p.top {
+    display: none;
+}
+
+.box #container {
+    margin: 0 auto;
+    width: 100%;
+}
+.box #content {
+    margin: 2em auto;
+    width: 90%;
+}
+.links-empty {
+    margin-bottom: 3em;
+}
+
+.form-required {
+    color: #FF0000;
+}
+div.description {
+    display: none;
+}
+div.form-item {
+    padding-bottom: 8px;
+}
+div.error {
+    margin-bottom: 1em;
+    background: #E05F4F;
+    padding: .5em;
+    color: white;
+    border-radius: 3px;
+}
+.reset-password a {
+    font-size: 12px;
+}
+#content-content {
+    margin-bottom: 10px;
+}
+#footer p.version-info{
+    color: #005889;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
